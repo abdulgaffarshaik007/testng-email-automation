@@ -1,0 +1,17 @@
+<suite name="GMail Test Suite">
+
+	<test name="Send Mail TestCase">
+	<parameter name="email" value="sureshbabu.qedge@gmail.com"></parameter>
+	<parameter name="sub" value="QA Job Openings"></parameter>
+		<classes>
+			<class name="testcases.SendMailTest"></class>			
+		</classes>	
+	</test>
+	
+	<test name="Receive Mail TestCase">
+		<classes>
+			<class name="testcases.ReceiveMailTest"></class>
+		</classes>
+	</test>
+
+</suite>
